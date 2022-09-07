@@ -16,7 +16,7 @@ body {
     top: 50%;
     left: 50%;
     text-align: center;
-    transform: translate(-50%, -70%); /* TODO: Adjust the translate values */
+    transform: translate(-50%, 30%); /* TODO: Adjust the translate values */
 }
 
 .centered img {
@@ -70,4 +70,29 @@ img {
     font-weight: normal;
     text-align: center;
     color: #967E76;
+}
+
+.resume-container a {
+    display: block;
+    text-align: center;
+    background-color: #967E76;
+    color: #EEE3CB;
+    font-family: Roboto;
+    font-weight: bold;
+    padding: 9px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.contact-me {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.contact-me i {
+    border: 1px solid black;
+    margin: 0 3px;
+    padding: 1px;
+    color: #967E76;
+    font-size: 22px;
 }
