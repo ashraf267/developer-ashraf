@@ -1,0 +1,73 @@
+/* Add custom font: Roboto-Regular */
+@font-face {
+    font-family: Roboto;
+    src: url(fonts\Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEE3CB;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -70%); /* TODO: Adjust the translate values */
+}
+
+.centered img {
+    width: 120px;
+    border-radius: 50%;
+    /* TODO: Add border here */
+    border: 5px solid #967E76;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* slide-show container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.my-slides {
+    display: none;
+}
+
+/* Fading animation */
+@keyframes fade {
+    from {opacity: .5};
+    to {opacity: 1};
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.7s;
+}
+
+.name-and-title {
+    border: 1px solid black;
+}
+
+#job-title {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.name-and-title h1 {
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: normal;
+    text-align: center;
+    color: #967E76;
+}
